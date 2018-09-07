@@ -12,8 +12,8 @@ import com.amazonaws.services.sns.model.PublishRequest;
 public class AmazonSNSSender {
 
     // AWS credentials -- replace with your credentials
-    static String ACCESS_KEY = "AKIAJNRYJLGVZBIUN4AA";
-    static String SECRET_KEY = "H4k3b2LZu3AFlcY8bzQgfNDD7y1mPBqaD6XQlrBu";
+    static String ACCESS_KEY = "";
+    static String SECRET_KEY = "";
 
     // Sender loop
     public static void main(String... args) throws Exception {
