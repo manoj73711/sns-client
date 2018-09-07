@@ -30,8 +30,8 @@ import org.mortbay.jetty.handler.AbstractHandler;
 public class AmazonSNSReceiver {
 
 	// AWS credentials -- replace with your credentials
-	static String ACCESS_KEY = "AKIAJNRYJLGVZBIUN4AA";
-	static String SECRET_KEY = "H4k3b2LZu3AFlcY8bzQgfNDD7y1mPBqaD6XQlrBu";
+	static String ACCESS_KEY = "";
+	static String SECRET_KEY = "";
 	// Shared queue for notifications from HTTP server
 	static BlockingQueue<Map<String, String>> messageQueue = new LinkedBlockingQueue<Map<String, String>>();
 
